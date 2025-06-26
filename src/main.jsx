@@ -7,7 +7,7 @@ import LearningPage from './pages/LearningPage.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Router basename="/dir-data-steward">
+    <Router basename="/dirdg">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/learn" element={<LearningPage />} />
